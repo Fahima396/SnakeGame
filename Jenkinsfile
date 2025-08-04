@@ -27,7 +27,6 @@ pipeline { //pipeline as code - Jenkinsfile
                 sh "docker rm -f webos"
                 sh "docker run -dit --name webos -p 5000:5000 gfgwebimg"
                 echo "Image deployed successfully...Enjoy the game!!!"
-                echo "hope you are enjoying the game!!!!"
             }
         }
     }
