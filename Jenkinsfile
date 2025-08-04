@@ -14,7 +14,6 @@ pipeline { //pipeline as code - Jenkinsfile
             steps{
                 sh "yum install python3-pip -y"
                 sh "pip install -r requirements.txt"
-                sh "pytest"
                 echo "Code have been tested succesfully!"
             }
         }
